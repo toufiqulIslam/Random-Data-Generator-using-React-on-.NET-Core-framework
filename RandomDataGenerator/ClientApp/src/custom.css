@@ -1,0 +1,59 @@
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+code {
+    color: #E01A76;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+    width: 9rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    border-radius: 2rem;
+}
+
+form {
+    padding: 0px !important;
+}
+
+.interaction-block {
+    display: inline-flex;
+    padding: 0px;
+}
+
+.file-size-area {
+    display: inline-grid;
+}
+
+.file-size-label {
+    text-align: center;
+}
+
+.counter-show-area {
+    margin-top: 3rem;
+    padding: 0px;
+}
+
+    .counter-show-area div {
+        padding: 0px;
+    }
+
+    .counter-show-area label {
+        padding: 0px;
+    }
+
+.generate-report-btn-area {
+    position: fixed;
+    bottom: 5px;
+    justify-content: center;
+    display: flex;
+}
+
+.generate-report-btn {
+    width: 20rem;
+}
