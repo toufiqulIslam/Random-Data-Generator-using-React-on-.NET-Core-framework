@@ -56,4 +56,8 @@ form {
 
 .generate-report-btn {
     width: 20rem;
+    margin-right: 10rem;
+}
+.top-item-heading {
+    margin-bottom: 20px;
 }
