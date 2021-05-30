@@ -21,7 +21,7 @@ namespace RandomDataGenerator.Controllers
 
             try
             {
-                string path = @"D:\Project\RandomDataGenerator\RandomDataGenerator\Utils\randomData.txt";
+                string path = Environment.CurrentDirectory.Replace("Controllers", "") + "\\Utils\\randomData.txt";
                 StreamWriter sw = new StreamWriter(path);
                 sw.WriteLine(param.text);
                 sw.Close();
@@ -40,7 +40,7 @@ namespace RandomDataGenerator.Controllers
             int totalNumeric = 0, totalAlphanumeric = 0, totalFloat = 0, grandTotal = 0;
             var topItems = new List<object>();
 
-            string path = @"D:\Project\RandomDataGenerator\RandomDataGenerator\Utils\randomData.txt";
+            string path = Environment.CurrentDirectory.Replace("Controllers","")+"\\Utils\\randomData.txt";
             StreamReader sr = new StreamReader(path);
             string allData = sr.ReadToEnd();
             sr.Close();
